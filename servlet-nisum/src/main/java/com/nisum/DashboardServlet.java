@@ -1,0 +1,21 @@
+package com.nisum;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.io.IOException;
+
+public class DashboardServlet extends HttpServlet {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+            throws ServletException, IOException {
+        HttpSession session = req.getSession(false);
+
+        resp.setContentType("text/html");
+        if (session != null && session.getAttribute("user") != null) {
+            String user = (String) session.getAttribute("user");
+            resp.getWriter().println("<h2>Welcome, " + user + "</h2>");
+            resp.getWriter().println("<a href='logout18'>Logout</a>");
+        } else {
+            resp.getWriter().println("<h3>Unauthorized. Please <a href='login18.html'>login</a></h3>");
+        }
+    }
+}
