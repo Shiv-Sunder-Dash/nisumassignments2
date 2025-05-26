@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e376814d-a0e1-4888-ae0b-3c008b4e2055" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Day3/sql_files/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day3/sql_files/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day3/sql_files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day3/sql_files/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day4/jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day4/jdbc/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2xdc2fHpdPWdulTbz8PcDzIclvs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.A.executor": "Run",
+    "Application.B.executor": "Run",
+    "Application.C.executor": "Run",
+    "Application.D.executor": "Run",
+    "Application.E.executor": "Run",
+    "Application.F.executor": "Run",
+    "Application.G.executor": "Run",
+    "Application.H.executor": "Run",
+    "Application.I.executor": "Run",
+    "Application.J.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/KIIT/Desktop/nisumAssignments2/Day5",
+    "settings.editor.selected.configurable": "settings.sync"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\KIIT\Desktop\nisumAssignments2\Day5\Day5" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="F" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="F" />
+      <module name="Day5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.F" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e376814d-a0e1-4888-ae0b-3c008b4e2055" name="Changes" comment="" />
+      <created>1748271185779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748271185779</updated>
+    </task>
+    <servers />
+  </component>
+</project>
