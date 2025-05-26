@@ -1,0 +1,1 @@
+SELECT AVG(Credits) AS AverageCredits FROM Courses;

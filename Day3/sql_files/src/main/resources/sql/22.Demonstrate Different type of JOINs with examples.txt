@@ -1,0 +1,58 @@
+1. INNER JOIN
+Returns rows when there is a match in both tables.
+
+SELECT e.name, d.dept_name
+FROM employees e
+INNER JOIN departments d ON e.dept_id = d.dept_id;
+
+
+2. 2. LEFT JOIN (or LEFT OUTER JOIN)
+
+Returns all rows from the left table, and matched rows from the right table.
+
+If no match, shows NULL for right table columns.
+
+SELECT e.name, d.dept_name
+FROM employees e
+LEFT JOIN departments d ON e.dept_id = d.dept_id;
+
+
+3. 3. RIGHT JOIN (or RIGHT OUTER JOIN)
+Returns all rows from the right table, and matched rows from the left table.
+
+If no match, shows NULL for left table columns.
+
+SELECT e.name, d.dept_name
+FROM employees e
+RIGHT JOIN departments d ON e.dept_id = d.dept_id;
+
+
+
+
+
+
+
+4. FULL JOIN (or FULL OUTER JOIN)
+Returns rows when there is a match in either table.
+
+Shows NULL if no match on either side.
+
+
+SELECT e.name, d.dept_name
+FROM employees e
+FULL JOIN departments d ON e.dept_id = d.dept_id;
+
+
+
+
+
+
+
+
+5. CROSS JOIN
+Returns Cartesian product of both tables (all combinations).
+
+SELECT e.name, d.dept_name
+FROM employees e
+CROSS JOIN departments d;
+

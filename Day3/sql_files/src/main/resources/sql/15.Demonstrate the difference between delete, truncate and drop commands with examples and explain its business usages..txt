@@ -1,0 +1,82 @@
+1. DELETE
+Deletes specific rows from a table based on a condition.
+
+Can delete all rows if no condition (WHERE) is specified.
+
+Removes rows one by one, logging each deletion (can be slower).
+
+Table structure and indexes remain intact.
+
+EXAMPLE:-
+DELETE FROM Employee
+WHERE Department = 'IT';
+
+DELETE FROM Employee;
+
+Business Usage:
+When you want to remove some specific records (e.g., employees who left the company).
+
+When you need to maintain the table structure and possibly reuse the table.
+
+When deletion needs to be logged or rolled back (supported in transactions).
+
+
+
+2.TRUNCATE
+
+
+Removes all rows from a table quickly.
+
+Resets auto-increment counters.
+
+Cannot delete specific rows — it’s an all-or-nothing operation.
+
+Does not log individual row deletions (much faster than DELETE).
+
+Table structure and indexes remain intact.
+
+EXAMPLE:-
+TRUNCATE TABLE Employee;
+
+Business Usage:
+When you want to quickly clear all data from a table (e.g., clearing a staging or temporary data table).
+
+When you want to reset the table to empty state, including auto-increment.
+
+When transaction logging and rollback are not required or not supported for this operation.
+
+
+
+
+
+3. DROP
+
+
+Completely removes the table and its data from the database.
+
+Removes table structure, data, indexes, triggers, constraints — everything.
+
+Cannot be undone unless you restore from backup.
+
+All dependent objects (like views) may break.
+
+
+EXAMPLE: 
+
+DROP TABLE Employee;
+
+
+Business Usage:
+When you want to permanently remove a table that is no longer needed (e.g., obsolete or temporary tables).
+
+When you want to restructure the database schema by removing old tables.
+
+When starting fresh or doing cleanup in development or testing environments.
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+Feature	                           DROP	                                                             TRUNCATE
+
+Definition	     Deletes the entire table (structure + data)	          Deletes all rows from a table, but keeps structure
+
+
+Data Deletion	           Removes all data and the table itself	                  Removes all data only, keeps the table
+
+
+Table Structure	                     Deleted	                                                      Preserved

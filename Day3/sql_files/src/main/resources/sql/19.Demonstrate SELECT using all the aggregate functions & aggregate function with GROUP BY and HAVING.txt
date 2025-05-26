@@ -1,0 +1,56 @@
+1. Aggregate Functions
+
+Students(StudentID, CourseID, FullName, Email)
+Salary(EmployeeID, Amount, Month)
+
+
+
+a) COUNT() – count total students
+
+SELECT COUNT(*) AS TotalStudents
+FROM Students;
+
+
+b) SUM() – total salary paid
+
+SELECT SUM(Amount) AS TotalSalaryPaid
+FROM Salary;
+
+
+c) AVG() – average salary
+
+SELECT AVG(Amount) AS AverageSalary
+FROM Salary;
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Aggregate Functions with GROUP BY and HAVING
+
+
+a. Find employees with total salary greater than ₹100000
+
+SELECT EmployeeID, SUM(Amount) AS TotalSalary
+FROM Salary
+GROUP BY EmployeeID
+HAVING SUM(Amount) > 100000;
+
+
+b. b) Courses with more than 5 students
+
+SELECT CourseID, COUNT(StudentID) AS StudentCount
+FROM Students
+GROUP BY CourseID
+HAVING COUNT(StudentID) > 5;
+
+
+

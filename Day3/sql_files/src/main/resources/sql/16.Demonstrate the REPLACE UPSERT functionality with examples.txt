@@ -1,0 +1,33 @@
+1. REPLACE 
+If the row doesn’t exist, it inserts it.
+
+If the row exists (based on primary key or unique index), it deletes the old row and inserts the new one.
+
+
+REPLACE INTO studentDetails (studentId, courseId, email, fullName)
+VALUES (1, 101, 'arjun.updated@example.com', 'Arjun Mehta Updated');
+
+If (studentId = 1 AND courseId = 101) exists, the row is deleted and a new one is inserted.
+
+If not, it simply inserts the new row.
+
+
+
+2.  INSERT
+
+Tries to insert the row.
+
+If a duplicate key (primary or unique) exists, it will update the specified fields.
+
+INSERT INTO studentDetails (studentId, courseId, email, fullName)
+VALUES (1, 101, 'arjun.updated@example.com', 'Arjun Mehta Updated')
+ON DUPLICATE KEY UPDATE
+email = VALUES(email),
+fullName = VALUES(fullName);
+
+If the record exists, only email and fullName are updated.
+
+This is more controlled and safer than REPLACE.
+
+
+
